@@ -8,7 +8,7 @@
          src: "/var/snap/jenkins/5022/workspace/AnsibleApp-CICD/target/AnsibleApp.war"
          dest: "/opt/tomcat/webapps/AnsibleApp.war"
          remote_src: no
-     - name: Restart Tomcat
-       systemd:
-         name: tomcat
-         state: restarted
+     #- name: Restart Tomcat
+     #  systemd:
+     #    name: tomcat
+     #    state: restarted
